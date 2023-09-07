@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f0ebf8;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+}
+h1{
+    font-weight: 500;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#container{
+    margin: auto;
+    width: 640px;
+}
+#cabecalho{
+    height: 162px;
+    margin: 12px 0px;
+}
+.imagem-topo{
+    height: 162px;
+    width: 640px;
+    border-radius: 10px;
+}
+.bordas{
+    border-radius: 8px;
+}
+#info{
+    height: 230px;
+    width: 640px;
+    background-color: #ffff;
+}
+#borda-topo{
+    border-top: 10px solid rgb(178, 192, 200);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 230px;
+    height: 0px;
+}
+.conteudo-info{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.borda-topo{
+    border-top: 1px solid #dadce0;
+}
+#conteudo-info1 h1{
+    margin-left: 20px;
+    color: #202124;
+}
+#conteudo-info1 p{
+    margin-left: 20px;
+    padding-top: 15px;
+    font-size: 15px;
+    color: #202124;
+}
+#conteudo-info2{
+    padding-top: 15px;
+}
+#conteudo-info2 h4{
+    margin-left: 20px;
+    display: inline;
+    font-size: 14px;
+    color: #5f6368;
+}
+#conteudo-info2 a{
+    font-size: 14px; 
+    color: #1a73e8;
+    text-decoration: none;
+}
+#conteudo-info3{
+    padding-top: 15px;
+}
+#conteudo-info3 p{
+    margin-left: 20px;
+    color: rgb(217,48,37);
+    font-size: 14px;
+}
+.h3-form{
+    font-size: 16px;
+    color: #202124;
+    font-weight: 400;
+    margin-left: 20px;
+    cursor: text;
+    display: block;
+}
+.formulario-input{
+    margin-top: 15px;
+    padding-top: 25px;
+    height: 113px;
+    width: 640px;
+    background-color: #ffff;
+}
+.formulario-input input{
+    display: block;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    width: 300px;
+    border-bottom: 2px solid #dadce0;
+}
+.formulario-input .matricula, .formulario-input .form9{
+    width: 150px;
+}
+.formulario-input .resposta-form{
+    width: 580px;
+}
+#resposta2{
+    height: 130px;
+}
+#resposta3{
+    height: 150px;
+}
+.opcao{
+    height: 20px;
+    margin-top: 10px;
+}
+.opcao input{
+    display: inline;
+    margin-top: 10px;
+    margin-left: 16px;
+    margin-right: 8px;
+    height: 20px;
+    width: 20px;
+}
+#resposta5{
+    height: 754px;
+}
+#niveis{
+    width: 640px;
+    height: 30px;
+    margin: 20px 0px 0px 20px;
+}
+#niveis li{
+    float: left;
+    padding-right: 64px;
+}
+#niveis ul{
+    margin-left: 160px;
+}
+#resposta5{
+    height: 640px;
+}
+#resposta6{
+    height: 300px;
+}
+.form5, .form6{
+    margin-left: 20px;
+    background-color: #f8f9fa;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+.form5 input, .form6 input{
+    height: 20px;
+    width: 20px;
+    margin: 0px 0px 0px 94px;
+    display: inline;
+    
+}
+.form5 label, .form6 label{
+    display: inline;
+}
+.form5 .centralizar-input, .form6 .centralizar-input{
+    margin-top: -28px;
+    margin-left: 82px;
+}
+.form5 .centralizar-input-uma-linha, .form6 .centralizar-input-uma-linha{
+    margin-top: -16px;
+    margin-left: 82px;
+}
+.form5 .centralizar-input-tres-linhas{
+    margin-top: -34px;
+    margin-left: 82px;
+    margin-bottom: 10px;
+}
+#resposta7{
+    height: 175px;
+}
+#resposta7 .opcao-outro{
+    width: 500px;
+}
+#resposta8{
+    height: 230px;  
+}
+#resposta9{
+    height: 130px;
+}
+#resposta10{
+    height: 160px; 
+}
+#seletores input{
+    height: 20px;
+    width: 20px;
+    margin-right: 6.5px;
+    display: inline;
+}
+#centralizar-input-form10{
+    margin-left: 60px;
+}
+#formulario10{
+    margin-top: 30px;
+    padding-left: 55px;
+}
+#niveis1-10 li{
+ display: inline;
+ margin-left: 30px;
+ padding-right: 7px;
+}
+#resposta11{
+    height: 180px;
+}
+#botao{
+    margin-top: 15px;
+    width: 100px;
+}
+#botao input{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    height: 36px;
+    width: 90px;
+    background-color: #57737e;
+    cursor: pointer;
+}
+#botao input:hover{
+    background-color: #728f9a;
+}
+#limpar-formulario{
+    width: 127px;
+    margin-left: 514px;
+    margin-top: -25px;  
+    margin-bottom: 10px; 
+}
+#limpar-formulario a{
+    color: rgb(95, 123, 136);
+    display: inline;
+}
+#rodape p{
+    margin-top: 25px;
+    font-size: 12px;
+    color: rgba(0,0,0,0.66);
+}
+#rodape-link p{
+    margin-top: 20px;
+    text-align: center;
+}
+#rodape-link a{
+    text-decoration: underline;
+    color: rgba(0,0,0,0.66);
+}
+#google img{
+    margin: 20px 0px 0px 250px;
+    color: rgba(0,0,0,0.66);
+    cursor: pointer;
+}
+#google span{
+    cursor: pointer;
+    color: rgba(0,0,0,0.66);
+    font-size: 22.1px;
+    position: relative;
+    top: -6px;
+}
